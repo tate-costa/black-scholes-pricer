@@ -17,11 +17,12 @@ Although this may currently seems like a relatively simple strategy to come up w
 7. Computes all five greeks with more simplified interpretation
 8. Visualises the volatility smile, edge by strike, and delta curve
 
-##The Main Idea
+## The Main Idea
 
 Black-Scholes is a tool to translate a given volatility into the options price. The market has a volatility forecast embedded within each option price. If your own forecast of volatility is more accurate than the markets, an edge to obtain financial advantage reveals itself.
 
 ## Project Structure
+```
 black-scholes-pricer/
 │
 ├── src/
@@ -36,5 +37,6 @@ black-scholes-pricer/
 │                                  # ticker and get a full analysis
 │
 ├── black_scholes_chart.png      # Sample output — AAPL analysis
-|
+├── requirements.txt
 └── README.md
+```
