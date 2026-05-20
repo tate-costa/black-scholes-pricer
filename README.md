@@ -1,5 +1,5 @@
 # Black-Scholes Options Pricer
-**Tate Costa - MS Statistics Portfolio **
+**Tate Costa - MS Statistics Portfolio**
 A complete Black-Scholes options pricing engine, in which runs on real market data. Within the interactive notebook, live option chains are pulled from Yahoo Finance, using the created formulas for the Black-Scholes model, it is reversed to solve for implied volatility across each strike price within the chain, and generate trade signals by comparing market implied volatility against historical volatility forecasts. 
 
 Although this may currently seems like a relatively simple strategy to come up with my own volatility forecast, I plan to continue on and develop GARCH models in order to more closely identify the volatility of the specific stock, and utilize this value to make more justified decisions on trading strategy. 
