@@ -21,6 +21,10 @@ Although this may currently seems like a relatively simple strategy to come up w
 
 Black-Scholes is a tool to translate a given volatility into the options price. The market has a volatility forecast embedded within each option price. If your own forecast of volatility is more accurate than the markets, an edge to obtain financial advantage reveals itself.
 
+## Sample Output
+
+![Black-Scholes Analysis](black_scholes_chart.png)
+
 ## Project Structure
 ```
 black-scholes-pricer/
